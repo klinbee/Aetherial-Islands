@@ -1,29 +1,33 @@
 {
-  "type": "minecraft:cache_once",
-  "argument": {
+  "type": "minecraft:range_choice",
+  "input": "skylands:aqua/base_noise",
+  "min_inclusive": -10,
+  "max_exclusive": -0.35,
+  "when_in_range": 0,
+  "when_out_of_range": {
     "type": "minecraft:spline",
     "spline": {
-      "coordinate": "minecraft:overworld/depth",
+      "coordinate": "skylands:y",
       "points": [
         {
-          "location": -1,
+          "location": -64,
           "derivative": 0,
-          "value": -1
+          "value": 1.5
         },
         {
-          "location": 0,
+          "location": -24,
           "derivative": 0,
-          "value": -0.5
+          "value": 1
         },
         {
-          "location": 0.4,
+          "location": 4,
           "derivative": 0,
           "value": 0.2
         },
         {
-          "location": 1.6,
+          "location": 32,
           "derivative": 0,
-          "value": 1.6
+          "value": 0
         }
       ]
     }
