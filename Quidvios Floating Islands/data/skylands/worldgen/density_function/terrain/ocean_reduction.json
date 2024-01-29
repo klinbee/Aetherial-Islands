@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "skylands:aqua/3d_continents",
+    "points": [
+      {
+        "location": -1.1,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": -1.05,
+        "derivative": 0,
+        "value": -2
+      },
+      {
+        "location": -0.19,
+        "derivative": 0,
+        "value": -2
+      },
+      {
+        "location": -0.14,
+        "derivative": 0,
+        "value": 0
+      }
+    ]
+  }
+}

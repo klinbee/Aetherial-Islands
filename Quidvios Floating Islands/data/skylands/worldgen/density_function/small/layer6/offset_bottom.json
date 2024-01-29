@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "skylands:small/layer6/base_noise",
+        "points": [
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.05,
+            "derivative": 0,
+            "value": 0.35
+          },
+          {
+            "location": 0.1,
+            "derivative": 0,
+            "value": 0.5
+          },
+          {
+            "location": 0.2,
+            "derivative": 0,
+            "value": 0.75
+          },
+          {
+            "location": 0.3,
+            "derivative": 0,
+            "value": 0.8
+          },
+          {
+            "location": 0.4,
+            "derivative": 0,
+            "value": 0.85
+          },
+          {
+            "location": 0.5,
+            "derivative": 0,
+            "value": 0.85
+          },
+          {
+            "location": 0.6,
+            "derivative": 0,
+            "value": 0.95
+          }
+        ]
+      }
+    }
+  }
+}

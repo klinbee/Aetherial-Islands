@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": "skylands:terrain/ocean_reduction",
+      "argument2": "skylands:terrain/merged_layers"
+    },
+    "min": -0.1,
+    "max": 10
+  }
+}

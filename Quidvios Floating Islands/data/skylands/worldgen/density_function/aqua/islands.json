@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": 0,
+    "argument2": "skylands:aqua/depth_bottom"
+  },
+  "min": -0.05,
+  "max": 10
+}

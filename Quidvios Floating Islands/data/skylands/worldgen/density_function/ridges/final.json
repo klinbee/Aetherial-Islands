@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "skylands:continents",
+    "min_inclusive": -0.105,
+    "max_exclusive": 10,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "skylands:y",
+      "min_inclusive": -8,
+      "max_exclusive": 8,
+      "when_in_range": "skylands:ridges/layer1",
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "skylands:y",
+        "min_inclusive": 56,
+        "max_exclusive": 72,
+        "when_in_range": "skylands:ridges/layer2",
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "skylands:y",
+          "min_inclusive": 120,
+          "max_exclusive": 136,
+          "when_in_range": "skylands:ridges/layer3",
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "skylands:y",
+            "min_inclusive": 184,
+            "max_exclusive": 200,
+            "when_in_range": "skylands:ridges/layer4",
+            "when_out_of_range": {
+              "type": "minecraft:range_choice",
+              "input": "skylands:y",
+              "min_inclusive": 248,
+              "max_exclusive": 264,
+              "when_in_range": "skylands:ridges/layer5",
+              "when_out_of_range": "skylands:ridges/no_rivers"
+            }
+          }
+        }
+      }
+    },
+    "when_out_of_range": "skylands:ridges/no_rivers"
+  }
+}

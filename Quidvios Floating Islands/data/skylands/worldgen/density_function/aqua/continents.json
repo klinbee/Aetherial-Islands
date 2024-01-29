@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "skylands:aqua/base_noise",
+    "points": [
+      {
+        "location": -1.5,
+        "derivative": 0,
+        "value": -1.075
+      },
+      {
+        "location": -1.15,
+        "derivative": 0,
+        "value": -0.445
+      },
+      {
+        "location": -0.8,
+        "derivative": 0,
+        "value": -0.22
+      },
+      {
+        "location": -0.35,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": -0.2,
+        "derivative": 0,
+        "value": 0.2
+      },
+      {
+        "location": 1,
+        "derivative": 0,
+        "value": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:spring_water",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

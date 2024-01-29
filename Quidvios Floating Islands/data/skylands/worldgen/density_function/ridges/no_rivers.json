@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:range_choice",
+      "input": "skylands:ridges/noise",
+      "min_inclusive": -0.105,
+      "max_exclusive": 0.105,
+      "when_in_range": 0.105,
+      "when_out_of_range": "skylands:ridges/noise"
+    }
+  }
+}

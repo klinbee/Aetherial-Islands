@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "skylands:y",
+    "min_inclusive": 104,
+    "max_exclusive": 120,
+    "when_in_range": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 103,
+        "to_y": 120,
+        "from_value": 0,
+        "to_value": -1
+      },
+      "argument2": "skylands:small/layer5/offset_top"
+    },
+    "when_out_of_range": 0
+  }
+}

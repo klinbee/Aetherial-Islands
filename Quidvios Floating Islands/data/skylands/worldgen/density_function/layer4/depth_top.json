@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": 191,
+      "to_y": 256,
+      "from_value": 0,
+      "to_value": -1
+    },
+    "argument2": "skylands:layer4/offset_top"
+  }
+}

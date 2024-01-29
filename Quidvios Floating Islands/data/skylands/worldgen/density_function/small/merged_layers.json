@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": "skylands:small/layer1/islands",
+                    "argument2": "skylands:small/layer2/islands"
+                  },
+                  "argument2": "skylands:small/layer3/islands"
+                },
+                "argument2": "skylands:small/layer4/islands"
+              },
+              "argument2": "skylands:small/layer5/islands"
+            },
+            "argument2": "skylands:small/layer6/islands"
+          },
+          "argument2": "skylands:small/layer7/islands"
+        },
+        "argument2": "skylands:small/layer8/islands"
+      },
+      "argument2": "skylands:small/layer9/islands"
+    },
+    "argument2": "skylands:small/layer10/islands"
+  }
+}
