@@ -3,12 +3,32 @@
   "argument": {
     "type": "minecraft:flat_cache",
     "argument": {
-      "type": "minecraft:range_choice",
-      "input": "skylands:ridges/noise",
-      "min_inclusive": -0.105,
-      "max_exclusive": 0.105,
-      "when_in_range": 0.105,
-      "when_out_of_range": "skylands:ridges/noise"
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "skylands:ridges/noise",
+        "points": [
+          {
+            "location": -1,
+            "derivative": 0,
+            "value": -1
+          },
+          {
+            "location": -0.105,
+            "derivative": 0,
+            "value": -0.105
+          },
+          {
+            "location": -0.105,
+            "derivative": 0,
+            "value": 0.105
+          },
+          {
+            "location": 1,
+            "derivative": 0,
+            "value": 1
+          }
+        ]
+      }
     }
   }
 }
