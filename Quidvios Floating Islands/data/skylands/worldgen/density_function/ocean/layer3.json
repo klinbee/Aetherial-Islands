@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:range_choice",
-  "input": "skylands:y",
-  "min_inclusive": 80,
-  "max_exclusive": 120,
-  "when_in_range": 0.8,
-  "when_out_of_range": -1
-}
