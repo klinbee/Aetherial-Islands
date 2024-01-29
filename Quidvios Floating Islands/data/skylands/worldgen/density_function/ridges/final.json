@@ -2,8 +2,8 @@
   "type": "minecraft:cache_once",
   "argument": {
     "type": "minecraft:range_choice",
-    "input": "skylands:aqua/continents",
-    "min_inclusive": -0.105,
+    "input": "skylands:aqua/base_noise",
+    "min_inclusive": -0.565,
     "max_exclusive": 10,
     "when_in_range": {
       "type": "minecraft:range_choice",
