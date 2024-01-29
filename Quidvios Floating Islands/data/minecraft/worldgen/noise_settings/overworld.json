@@ -2,7 +2,7 @@
   "sea_level": -128,
   "disable_mob_generation": false,
   "aquifers_enabled": false,
-  "ore_veins_enabled": true,
+  "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
     "Name": "minecraft:stone"
@@ -20,15 +20,10 @@
     "size_vertical": 1
   },
   "noise_router": {
-    "barrier": 0.1,
-    "fluid_level_floodedness": "skylands:ocean/aquifer_type",
-    "fluid_level_spread": 0.3,
-    "lava": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_lava",
-      "xz_scale": 1,
-      "y_scale": 1
-    },
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
     "temperature": {
       "type": "minecraft:shifted_noise",
       "noise": "minecraft:temperature",
@@ -54,57 +49,8 @@
     "initial_density_without_jaggedness": 1,
     "final_density": "skylands:terrain/final",
     "vein_toggle": 0,
-    "vein_ridged": {
-      "type": "minecraft:add",
-      "argument1": -0.07999999821186066,
-      "argument2": {
-        "type": "minecraft:max",
-        "argument1": {
-          "type": "minecraft:abs",
-          "argument": {
-            "type": "minecraft:interpolated",
-            "argument": {
-              "type": "minecraft:range_choice",
-              "input": "skylands:y",
-              "min_inclusive": -60,
-              "max_exclusive": 51,
-              "when_in_range": {
-                "type": "minecraft:noise",
-                "noise": "minecraft:ore_vein_a",
-                "xz_scale": 4,
-                "y_scale": 4
-              },
-              "when_out_of_range": 0
-            }
-          }
-        },
-        "argument2": {
-          "type": "minecraft:abs",
-          "argument": {
-            "type": "minecraft:interpolated",
-            "argument": {
-              "type": "minecraft:range_choice",
-              "input": "skylands:y",
-              "min_inclusive": -60,
-              "max_exclusive": 51,
-              "when_in_range": {
-                "type": "minecraft:noise",
-                "noise": "minecraft:ore_vein_b",
-                "xz_scale": 4,
-                "y_scale": 4
-              },
-              "when_out_of_range": 0
-            }
-          }
-        }
-      }
-    },
-    "vein_gap": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:ore_gap",
-      "xz_scale": 1,
-      "y_scale": 1
-    }
+    "vein_ridged": 0,
+    "vein_gap": 0
   },
   "spawn_target": [
     {
