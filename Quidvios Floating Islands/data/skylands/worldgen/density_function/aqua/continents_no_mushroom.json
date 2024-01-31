@@ -4,12 +4,12 @@
     "coordinate": "skylands:aqua/base_noise",
     "points": [
       {
-        "location": -1.5,
+        "location": -1.6,
         "derivative": 0,
         "value": -1.0
       },
       {
-        "location": -0.975,
+        "location": -1.15,
         "derivative": 0,
         "value": -0.445
       },

@@ -3,11 +3,10 @@
   "argument": {
     "type": "minecraft:clamp",
     "input": {
-      "type": "minecraft:add",
-      "argument1": 0,
-      "argument2": "skylands:aqua/depth_bottom"
+      "type": "minecraft:interpolated",
+      "argument": "skylands:aqua/depth_bottom"
     },
-    "min": -0.05,
+    "min": 0,
     "max": 10
   }
 }

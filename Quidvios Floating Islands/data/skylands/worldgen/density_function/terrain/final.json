@@ -16,8 +16,5 @@
     "min": -0.025,
     "max": 10
   },
-  "argument2": {
-    "type": "minecraft:interpolated",
-    "argument": "skylands:aqua/islands"
-  }
+  "argument2": "skylands:aqua/islands"
 }
