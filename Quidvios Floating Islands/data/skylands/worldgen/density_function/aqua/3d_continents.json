@@ -1,6 +1,6 @@
 {
   "type": "minecraft:range_choice",
-  "input": "minecraft:y",
+  "input": "skylands:y",
   "min_inclusive": -64,
   "max_exclusive": 80,
   "when_in_range": "skylands:aqua/continents_no_mushroom",

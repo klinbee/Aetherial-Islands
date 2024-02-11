@@ -7,7 +7,7 @@
         "location": -1.06,
         "derivative": 0,
         "value": {
-          "coordinate": "minecraft:y",
+          "coordinate": "skylands:y",
           "points": [
             {
               "location": 80,
