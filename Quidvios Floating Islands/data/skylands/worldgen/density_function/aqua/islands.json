@@ -1,12 +1,4 @@
 {
   "type": "minecraft:cache_once",
-  "argument": {
-    "type": "minecraft:clamp",
-    "input": {
-      "type": "minecraft:interpolated",
-      "argument": "skylands:aqua/depth_bottom"
-    },
-    "min": 0,
-    "max": 10
-  }
+  "argument": "skylands:aqua/depth_bottom"
 }

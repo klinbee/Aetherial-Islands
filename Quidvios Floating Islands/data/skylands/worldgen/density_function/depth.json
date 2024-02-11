@@ -2,7 +2,7 @@
   "type": "minecraft:range_choice",
   "input": "skylands:aqua/base_noise",
   "min_inclusive": -10,
-  "max_exclusive": -0.35,
+  "max_exclusive": 0.45,
   "when_in_range": 0,
   "when_out_of_range": {
     "type": "minecraft:spline",
@@ -20,7 +20,7 @@
           "value": 1.1
         },
         {
-          "location": 4,
+          "location": 16,
           "derivative": 0,
           "value": 0.2
         },

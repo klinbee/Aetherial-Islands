@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:add",
-  "argument1": {
-    "type": "minecraft:clamp",
-    "input": {
-      "type": "minecraft:range_choice",
-      "input": {
-        "type": "minecraft:interpolated",
-        "argument": "skylands:ridges/final"
-      },
-      "min_inclusive": -0.15,
-      "max_exclusive": 0.15,
-      "when_in_range": "skylands:terrain/no_caves",
-      "when_out_of_range": "skylands:terrain/with_caves"
-    },
-    "min": -0.025,
-    "max": 10
+  "type": "minecraft:range_choice",
+  "input": "skylands:aqua/3d_continents",
+  "min_inclusive": -1.05,
+  "max_exclusive": -0.195,
+  "when_in_range": {
+    "type": "minecraft:interpolated",
+    "argument": "skylands:aqua/islands"
   },
-  "argument2": "skylands:aqua/islands"
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:interpolated",
+      "argument": "skylands:ridges/final"
+    },
+    "min_inclusive": -0.15,
+    "max_exclusive": 0.15,
+    "when_in_range": "skylands:terrain/no_caves",
+    "when_out_of_range": "skylands:terrain/with_caves"
+  }
 }
