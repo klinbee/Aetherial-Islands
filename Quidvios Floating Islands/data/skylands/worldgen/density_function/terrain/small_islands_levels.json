@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "skylands:y",
+      "points": [
+        {
+          "location": -16,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": -8,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 8,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 16,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 48,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 56,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 72,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 80,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 112,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 120,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 136,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 144,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 168,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 176,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 200,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 208,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 232,
+          "derivative": 0,
+          "value": 5
+        },
+        {
+          "location": 240,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 264,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 272,
+          "derivative": 0,
+          "value": 5
+        }
+      ]
+    }
+  }
+}

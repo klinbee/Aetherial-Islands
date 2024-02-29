@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": -0.45,
+    "argument2": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:cave_cheese",
+      "xz_scale": 1.4,
+      "y_scale": 1.9,
+      "shift_x": 0,
+      "shift_y": 0,
+      "shift_z": 0
+    }
+  }
+}

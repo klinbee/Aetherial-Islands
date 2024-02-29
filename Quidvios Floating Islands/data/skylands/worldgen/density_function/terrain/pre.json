@@ -18,17 +18,16 @@
               "location": 96,
               "derivative": 0,
               "value": {
-                "coordinate": "skylands:terrain/merged_layers",
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "argument1": "skylands:terrain/merged_layers",
+                  "argument2": "skylands:terrain/small_islands"
+                },
                 "points": [
                   {
                     "location": -1,
                     "derivative": 1,
                     "value": -1
-                  },
-                  {
-                    "location": 0,
-                    "derivative": 1,
-                    "value": 0
                   },
                   {
                     "location": 1,
@@ -55,17 +54,16 @@
         "location": -0.14,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:terrain/merged_layers",
+          "coordinate": {
+            "type": "minecraft:add",
+            "argument1": "skylands:terrain/merged_layers",
+            "argument2": "skylands:terrain/small_islands"
+          },
           "points": [
             {
               "location": -1,
               "derivative": 1,
               "value": -1
-            },
-            {
-              "location": 0,
-              "derivative": 1,
-              "value": 0
             },
             {
               "location": 1,
