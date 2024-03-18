@@ -1,6 +1,6 @@
 {
   "type": "minecraft:range_choice",
-  "input": "skylands:aqua/base_noise",
+  "input": "skylands:continents/base",
   "min_inclusive": -10,
   "max_exclusive": 0.45,
   "when_in_range": 0,

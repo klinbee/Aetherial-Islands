@@ -2,9 +2,9 @@
   "type": "minecraft:cache_once",
   "argument": {
     "type": "minecraft:y_clamped_gradient",
-    "from_y": -64,
-    "to_y": 320,
-    "from_value": -64,
-    "to_value": 320
+    "from_y": -1024,
+    "to_y": 1024,
+    "from_value": -1024,
+    "to_value": 1024
   }
 }

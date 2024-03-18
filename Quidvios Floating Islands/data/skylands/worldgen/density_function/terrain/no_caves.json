@@ -23,7 +23,7 @@
             "from_value": 0,
             "to_value": -0.5
           },
-          "argument2": "skylands:terrain/pre"
+          "argument2": "skylands:terrain/pre_caves"
         }
       }
     }

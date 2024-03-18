@@ -36,7 +36,7 @@
       "xz_scale": 0.25,
       "y_scale": 0
     },
-    "continents": "skylands:aqua/3d_continents",
+    "continents": "skylands:continents/3d",
     "erosion": "minecraft:overworld/erosion",
     "depth": "skylands:depth",
     "ridges": "skylands:ridges/final",

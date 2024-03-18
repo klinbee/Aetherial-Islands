@@ -1,11 +1,11 @@
 {
   "type": "minecraft:range_choice",
-  "input": "skylands:aqua/3d_continents",
+  "input": "skylands:continents/3d",
   "min_inclusive": -1.05,
   "max_exclusive": -0.195,
   "when_in_range": {
     "type": "minecraft:interpolated",
-    "argument": "skylands:aqua/islands"
+    "argument": "skylands:islands/oceanic/final"
   },
   "when_out_of_range": {
     "type": "minecraft:range_choice",

@@ -12,7 +12,7 @@
         "location": -8,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer1/base_noise",
+          "coordinate": "skylands:islands/layer1/noise",
           "points": [
             {
               "location": 0,
@@ -36,7 +36,7 @@
         "location": 8,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer1/base_noise",
+          "coordinate": "skylands:islands/layer1/noise",
           "points": [
             {
               "location": 0,
@@ -70,7 +70,7 @@
         "location": 56,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer2/base_noise",
+          "coordinate": "skylands:islands/layer2/noise",
           "points": [
             {
               "location": 0,
@@ -94,7 +94,7 @@
         "location": 72,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer2/base_noise",
+          "coordinate": "skylands:islands/layer2/noise",
           "points": [
             {
               "location": 0,
@@ -128,7 +128,7 @@
         "location": 120,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer3/base_noise",
+          "coordinate": "skylands:islands/layer3/noise",
           "points": [
             {
               "location": 0,
@@ -152,7 +152,7 @@
         "location": 136,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer3/base_noise",
+          "coordinate": "skylands:islands/layer3/noise",
           "points": [
             {
               "location": 0,
@@ -186,7 +186,7 @@
         "location": 184,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer4/base_noise",
+          "coordinate": "skylands:islands/layer4/noise",
           "points": [
             {
               "location": 0,
@@ -210,7 +210,7 @@
         "location": 200,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer4/base_noise",
+          "coordinate": "skylands:islands/layer4/noise",
           "points": [
             {
               "location": 0,
@@ -244,7 +244,7 @@
         "location": 248,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer5/base_noise",
+          "coordinate": "skylands:islands/layer5/noise",
           "points": [
             {
               "location": 0,
@@ -268,7 +268,7 @@
         "location": 264,
         "derivative": 0,
         "value": {
-          "coordinate": "skylands:layer5/base_noise",
+          "coordinate": "skylands:islands/layer5/noise",
           "points": [
             {
               "location": 0,

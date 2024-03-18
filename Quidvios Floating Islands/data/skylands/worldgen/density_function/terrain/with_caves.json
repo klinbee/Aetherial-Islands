@@ -30,12 +30,12 @@
               },
               "argument2": {
                 "type": "minecraft:range_choice",
-                "input": "skylands:terrain/pre",
+                "input": "skylands:terrain/pre_caves",
                 "min_inclusive": -1000000,
                 "max_exclusive": 1.5625,
                 "when_in_range": {
                   "type": "minecraft:min",
-                  "argument1": "skylands:terrain/pre",
+                  "argument1": "skylands:terrain/pre_caves",
                   "argument2": {
                     "type": "minecraft:mul",
                     "argument1": 9,
@@ -86,7 +86,7 @@
                             "argument2": {
                               "type": "minecraft:mul",
                               "argument1": -0.64,
-                              "argument2": "skylands:terrain/pre"
+                              "argument2": "skylands:terrain/pre_caves"
                             }
                           },
                           "min": 0,
