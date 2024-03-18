@@ -5,6 +5,6 @@
     "argument1": "skylands:islands/small/levels",
     "argument2": "skylands:islands/small/noise"
   },
-  "min": -0.01,
+  "min": -0.05,
   "max": 10
 }
