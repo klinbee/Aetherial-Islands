@@ -1,56 +1,53 @@
 {
-  "type": "minecraft:cache_once",
+  "type": "minecraft:flat_cache",
   "argument": {
-    "type": "minecraft:flat_cache",
+    "type": "minecraft:cache_2d",
     "argument": {
-      "type": "minecraft:cache_2d",
-      "argument": {
-        "type": "minecraft:spline",
-        "spline": {
-          "coordinate": "skylands:islands/layer1/noise",
-          "points": [
-            {
-              "location": 0,
-              "derivative": 0,
-              "value": 0
-            },
-            {
-              "location": 0.05,
-              "derivative": 0,
-              "value": 0.35
-            },
-            {
-              "location": 0.1,
-              "derivative": 0,
-              "value": 0.5
-            },
-            {
-              "location": 0.2,
-              "derivative": 0,
-              "value": 0.75
-            },
-            {
-              "location": 0.3,
-              "derivative": 0,
-              "value": 0.8
-            },
-            {
-              "location": 0.4,
-              "derivative": 0,
-              "value": 0.85
-            },
-            {
-              "location": 0.5,
-              "derivative": 0,
-              "value": 0.85
-            },
-            {
-              "location": 0.6,
-              "derivative": 0,
-              "value": 0.95
-            }
-          ]
-        }
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "skylands:islands/layer1/noise",
+        "points": [
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.05,
+            "derivative": 0,
+            "value": 0.35
+          },
+          {
+            "location": 0.1,
+            "derivative": 0,
+            "value": 0.5
+          },
+          {
+            "location": 0.2,
+            "derivative": 0,
+            "value": 0.75
+          },
+          {
+            "location": 0.3,
+            "derivative": 0,
+            "value": 0.8
+          },
+          {
+            "location": 0.4,
+            "derivative": 0,
+            "value": 0.85
+          },
+          {
+            "location": 0.5,
+            "derivative": 0,
+            "value": 0.85
+          },
+          {
+            "location": 0.6,
+            "derivative": 0,
+            "value": 0.95
+          }
+        ]
       }
     }
   }

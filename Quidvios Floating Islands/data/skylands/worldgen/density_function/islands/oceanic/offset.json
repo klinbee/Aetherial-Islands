@@ -1,51 +1,48 @@
 {
-  "type": "minecraft:cache_once",
-  "argument": {
-    "type": "minecraft:spline",
-    "spline": {
-      "coordinate": "skylands:continents/base",
-      "points": [
-        {
-          "location": -1.1,
-          "derivative": 0,
-          "value": 0.8
-        },
-        {
-          "location": -1.0,
-          "derivative": 0,
-          "value": 0.7
-        },
-        {
-          "location": -0.95,
-          "derivative": 0,
-          "value": 0.55
-        },
-        {
-          "location": -0.90,
-          "derivative": 0,
-          "value": 0.45
-        },
-        {
-          "location": -0.85,
-          "derivative": 0,
-          "value": 0.4
-        },
-        {
-          "location": -0.825,
-          "derivative": 0,
-          "value": 0.35
-        },
-        {
-          "location": -0.79,
-          "derivative": 0,
-          "value": 0.05
-        },
-        {
-          "location": -0.79,
-          "derivative": 0,
-          "value": 0.0
-        }
-      ]
-    }
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "skylands:continents/base",
+    "points": [
+      {
+        "location": -1.1,
+        "derivative": 0,
+        "value": 0.8
+      },
+      {
+        "location": -1.0,
+        "derivative": 0,
+        "value": 0.7
+      },
+      {
+        "location": -0.95,
+        "derivative": 0,
+        "value": 0.55
+      },
+      {
+        "location": -0.90,
+        "derivative": 0,
+        "value": 0.45
+      },
+      {
+        "location": -0.85,
+        "derivative": 0,
+        "value": 0.4
+      },
+      {
+        "location": -0.825,
+        "derivative": 0,
+        "value": 0.35
+      },
+      {
+        "location": -0.79,
+        "derivative": 0,
+        "value": 0.05
+      },
+      {
+        "location": -0.79,
+        "derivative": 0,
+        "value": 0.0
+      }
+    ]
   }
 }

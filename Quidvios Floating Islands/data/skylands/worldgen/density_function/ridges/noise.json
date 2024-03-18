@@ -1,12 +1,9 @@
 {
-  "type": "minecraft:cache_once",
+  "type": "minecraft:flat_cache",
   "argument": {
-    "type": "minecraft:flat_cache",
-    "argument": {
-      "type": "minecraft:noise",
-      "noise": "skylands:ridges",
-      "xz_scale": 1,
-      "y_scale": 0
-    }
+    "type": "minecraft:noise",
+    "noise": "skylands:ridges",
+    "xz_scale": 1,
+    "y_scale": 0
   }
 }
