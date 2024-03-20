@@ -1,6 +1,6 @@
 {
   "type": "minecraft:range_choice",
-  "input": "skylands:continents/3d",
+  "input": "skylands:continents/oceanic_terrain_limiter",
   "min_inclusive": -1.05,
   "max_exclusive": -0.195,
   "when_in_range": {
