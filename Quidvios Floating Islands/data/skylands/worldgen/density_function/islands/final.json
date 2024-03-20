@@ -41,19 +41,8 @@
             "input": "skylands:y",
             "min_inclusive": 192,
             "max_exclusive": 256,
-            "when_in_range": {
-              "type": "minecraft:max",
-              "argument1": "skylands:islands/layer4/depth_top",
-              "argument2": "skylands:islands/layer5/depth_bottom"
-            },
-            "when_out_of_range": {
-              "type": "minecraft:range_choice",
-              "input": "skylands:y",
-              "min_inclusive": 256,
-              "max_exclusive": 304,
-              "when_in_range": "skylands:islands/layer5/depth_top",
-              "when_out_of_range": -0.1
-            }
+            "when_in_range": "skylands:islands/layer4/depth_top",
+            "when_out_of_range": -0.1
           }
         }
       }
