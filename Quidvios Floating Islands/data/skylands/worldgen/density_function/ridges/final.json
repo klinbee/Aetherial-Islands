@@ -2,7 +2,7 @@
   "type": "minecraft:cache_once",
   "argument": {
     "type": "minecraft:range_choice",
-    "input": "skylands:continents/base",
+    "input": "skylands:continents/noise",
     "min_inclusive": -0.565,
     "max_exclusive": 10,
     "when_in_range": {
