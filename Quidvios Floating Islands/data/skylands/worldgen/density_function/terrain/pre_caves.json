@@ -20,11 +20,7 @@
                 "location": 96,
                 "derivative": 0,
                 "value": {
-                  "coordinate": {
-                    "type": "minecraft:add",
-                    "argument1": "skylands:islands/final",
-                    "argument2": "skylands:islands/small/final"
-                  },
+                  "coordinate": "skylands:islands/final",
                   "points": [
                     {
                       "location": -1,
@@ -56,11 +52,7 @@
           "location": -0.14,
           "derivative": 0,
           "value": {
-            "coordinate": {
-              "type": "minecraft:add",
-              "argument1": "skylands:islands/final",
-              "argument2": "skylands:islands/small/final"
-            },
+            "coordinate": "skylands:islands/final",
             "points": [
               {
                 "location": -1,
