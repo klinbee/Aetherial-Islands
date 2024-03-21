@@ -2,8 +2,8 @@
   "type": "minecraft:add",
   "argument1": {
     "type": "minecraft:y_clamped_gradient",
-    "from_y": 63,
-    "to_y": 128,
+    "from_y": 48,
+    "to_y": 112,
     "from_value": 0,
     "to_value": -1
   },

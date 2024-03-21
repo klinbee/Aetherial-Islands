@@ -1,0 +1,286 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:y",
+    "points": [
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer1/depth_bottom",
+            "argument2": "skylands:islands/layer2/depth_bottom"
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer1/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer2/depth_bottom",
+              "argument2": "skylands:islands/layer3/depth_bottom"
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 48,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer1/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer2/depth_bottom",
+              "argument2": "skylands:islands/layer3/depth_bottom"
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 48,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer1/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer2/depth_top",
+              "argument2": {
+                "type": "minecraft:max",
+                "argument1": "skylands:islands/layer3/depth_bottom",
+                "argument2": "skylands:islands/layer4/depth_bottom"
+              }
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 96,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer1/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer2/depth_top",
+              "argument2": {
+                "type": "minecraft:max",
+                "argument1": "skylands:islands/layer3/depth_bottom",
+                "argument2": "skylands:islands/layer4/depth_bottom"
+              }
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 96,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer2/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer3/depth_top",
+              "argument2": {
+                "type": "minecraft:max",
+                "argument1": "skylands:islands/layer4/depth_bottom",
+                "argument2": "skylands:islands/layer5/depth_bottom"
+              }
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 144,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer2/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer3/depth_top",
+              "argument2": {
+                "type": "minecraft:max",
+                "argument1": "skylands:islands/layer4/depth_bottom",
+                "argument2": "skylands:islands/layer5/depth_bottom"
+              }
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 144,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer3/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer4/depth_top",
+              "argument2": "skylands:islands/layer5/depth_bottom"
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 192,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer3/depth_top",
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": "skylands:islands/layer4/depth_top",
+              "argument2": "skylands:islands/layer5/depth_bottom"
+            }
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 192,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:max",
+            "argument1": "skylands:islands/layer4/depth_top",
+            "argument2": "skylands:islands/layer5/depth_top"
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": -1,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 1,
+              "value": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
