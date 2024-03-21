@@ -2,11 +2,11 @@
   "type": "minecraft:range_choice",
   "input": {
     "type": "minecraft:max",
-    "argument1": "skylands:islands/layer2/noise",
+    "argument1": "skylands:islands/layer3/noise",
     "argument2": {
       "type": "minecraft:max",
-      "argument1": "skylands:islands/layer3/noise",
-      "argument2": "skylands:islands/layer4/noise"
+      "argument1": "skylands:islands/layer4/noise",
+      "argument2": "skylands:islands/layer5/noise"
     }
   },
   "min_inclusive": -0.005,
