@@ -20,7 +20,7 @@
                 "location": 96,
                 "derivative": 0,
                 "value": {
-                  "coordinate": "skylands:islands/fnial",
+                  "coordinate": "skylands:islands/fanil",
                   "points": [
                     {
                       "location": -1,
@@ -52,7 +52,7 @@
           "location": -0.14,
           "derivative": 0,
           "value": {
-            "coordinate": "skylands:islands/fnial",
+            "coordinate": "skylands:islands/fanil",
             "points": [
               {
                 "location": -1,
