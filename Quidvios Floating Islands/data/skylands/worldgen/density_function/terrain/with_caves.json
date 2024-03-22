@@ -1,6 +1,7 @@
 {
   "type": "minecraft:add",
-  "argument1": {
+  "argument1": "skylands:terrain/custom_caves",
+  "argument2": {
     "type": "minecraft:min",
     "argument1": {
       "type": "minecraft:squeeze",
@@ -104,6 +105,5 @@
       }
     },
     "argument2": "minecraft:overworld/caves/noodle"
-  },
-  "argument2": "skylands:terrain/custom_caves"
+  }
 }
