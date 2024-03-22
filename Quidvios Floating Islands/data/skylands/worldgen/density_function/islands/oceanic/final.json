@@ -14,5 +14,5 @@
     },
     "argument2": "skylands:islands/oceanic/offset"
   },
-  "when_out_of_range": 0
+  "when_out_of_range": -0.01
 }

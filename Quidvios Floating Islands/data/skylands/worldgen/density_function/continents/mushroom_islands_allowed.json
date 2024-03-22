@@ -9,7 +9,7 @@
       "argument2": "skylands:islands/layer5/noise"
     }
   },
-  "min_inclusive": -0.005,
+  "min_inclusive": -0.05,
   "max_exclusive": 1024,
   "when_in_range": "skylands:continents/base",
   "when_out_of_range": "skylands:continents/no_mushroom"

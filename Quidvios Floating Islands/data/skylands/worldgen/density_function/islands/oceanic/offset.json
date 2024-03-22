@@ -4,39 +4,44 @@
     "coordinate": "skylands:continents/noise",
     "points": [
       {
+        "location": -1.8,
+        "derivative": 0,
+        "value": 0.9875
+      },
+      {
         "location": -1.1,
         "derivative": 0,
-        "value": 0.8
+        "value": 0.75
       },
       {
         "location": -1.0,
         "derivative": 0,
-        "value": 0.7
+        "value": 0.65
       },
       {
         "location": -0.95,
         "derivative": 0,
-        "value": 0.55
+        "value": 0.525
       },
       {
         "location": -0.90,
         "derivative": 0,
-        "value": 0.45
+        "value": 0.40
       },
       {
         "location": -0.85,
         "derivative": 0,
-        "value": 0.4
+        "value": 0.35
       },
       {
         "location": -0.825,
         "derivative": 0,
-        "value": 0.35
+        "value": 0.25
       },
       {
         "location": -0.79,
         "derivative": 0,
-        "value": 0.05
+        "value": 0.15
       },
       {
         "location": -0.775,
