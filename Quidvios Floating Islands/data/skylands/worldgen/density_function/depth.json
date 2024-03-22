@@ -1,112 +1,138 @@
 {
-  "type": "minecraft:range_choice",
-  "input": "skylands:ridges/noise",
-  "min_inclusive": -0.15,
-  "max_exclusive": 0.15,
-  "when_in_range": 0,
-  "when_out_of_range": {
-    "type": "minecraft:spline",
-    "spline": {
-      "coordinate": "skylands:y",
-      "points": [
-        {
-          "location": -64,
-          "derivative": 0,
-          "value": {
-            "coordinate": "skylands:islands/layer1/offset_bottom",
-            "points": [
-              {
-                "location": 0,
-                "derivative": 0,
-                "value": 0
-              },
-              {
-                "location": 0.3,
-                "derivative": 0,
-                "value": 1.5
-              }
-            ]
-          }
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:range_choice",
+      "input": "skylands:y",
+      "min_inclusive": -80,
+      "max_exclusive": -16,
+      "when_in_range": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": -80,
+            "to_y": -16,
+            "from_value": -1,
+            "to_value": 0
+          },
+          "argument2": "skylands:islands/layer1/offset_bottom"
         },
-        {
-          "location": -24,
-          "derivative": 0,
-          "value": {
-            "coordinate": "skylands:islands/layer1/offset_bottom",
-            "points": [
-              {
-                "location": 0,
-                "derivative": 0,
-                "value": 0
-              },
-              {
-                "location": 0.3,
-                "derivative": 0,
-                "value": 1.1
-              }
-            ]
-          }
-        },
-        {
-          "location": -16,
-          "derivative": 0,
-          "value": {
-            "coordinate": {
-              "type": "minecraft:max",
-              "argument1": "skylands:islands/layer1/noise",
-              "argument2": {
-                "type": "minecraft:max",
-                "argument1": "skylands:islands/layer2/noise",
-                "argument2": "skylands:islands/layer3/noise"
-              }
-            },
-            "points": [
-              {
-                "location": 0,
-                "derivative": 0,
-                "value": 0
-              },
-              {
-                "location": 0.4,
-                "derivative": 0,
-                "value": 0.90
-              }
-            ]
-          }
-        },
-        {
-          "location": 80,
-          "derivative": 0,
-          "value": {
-            "coordinate": {
-              "type": "minecraft:max",
-              "argument1": "skylands:islands/layer1/noise",
-              "argument2": {
-                "type": "minecraft:max",
-                "argument1": "skylands:islands/layer2/noise",
-                "argument2": "skylands:islands/layer3/noise"
-              }
-            },
-            "points": [
-              {
-                "location": 0,
-                "derivative": 0,
-                "value": 0
-              },
-              {
-                "location": 0.4,
-                "derivative": 0,
-                "value": 0.2
-              }
-            ]
-          }
-        },
-        {
-          "location": 80,
-          "derivative": 0,
-          "value": 0
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": -32,
+            "to_y": 32,
+            "from_value": -1,
+            "to_value": 0
+          },
+          "argument2": "skylands:islands/layer2/offset_bottom"
         }
-      ]
-    }
+      },
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "skylands:y",
+        "min_inclusive": -16,
+        "max_exclusive": 32,
+        "when_in_range": {
+          "type": "minecraft:max",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:y_clamped_gradient",
+              "from_y": -17,
+              "to_y": 48,
+              "from_value": 0,
+              "to_value": -1
+            },
+            "argument2": "skylands:islands/layer1/offset_top"
+          },
+          "argument2": {
+            "type": "minecraft:max",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": -32,
+                "to_y": 32,
+                "from_value": -1,
+                "to_value": 0
+              },
+              "argument2": "skylands:islands/layer2/offset_bottom"
+            },
+            "argument2": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": 16,
+                "to_y": 80,
+                "from_value": -1,
+                "to_value": 0
+              },
+              "argument2": "skylands:islands/layer3/offset_bottom"
+            }
+          }
+        },
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "skylands:y",
+          "min_inclusive": 32,
+          "max_exclusive": 72,
+          "when_in_range": {
+            "type": "minecraft:max",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": -17,
+                "to_y": 48,
+                "from_value": 0,
+                "to_value": -1
+              },
+              "argument2": "skylands:islands/layer1/offset_top"
+            },
+            "argument2": {
+              "type": "minecraft:max",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_y": 31,
+                  "to_y": 96,
+                  "from_value": 0,
+                  "to_value": -1
+                },
+                "argument2": "skylands:islands/layer2/offset_top"
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_y": 16,
+                  "to_y": 80,
+                  "from_value": -1,
+                  "to_value": 0
+                },
+                "argument2": "skylands:islands/layer3/offset_bottom"
+              }
+            }
+          },
+          "when_out_of_range": -1
+        }
+      }
+    },
+    "min_inclusive": 0,
+    "max_exclusive": 1024,
+    "when_in_range": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": -64,
+      "to_y": 72,
+      "from_value": 1.5,
+      "to_value": 0.2
+    },
+    "when_out_of_range": 0
   }
 }
