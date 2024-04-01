@@ -22,28 +22,23 @@
                   "value": 0
                 },
                 {
-                  "location": 0.1,
-                  "derivative": 0,
-                  "value": 0.2
+                  "location": 0.082,
+                  "value": 0.218,
+                  "derivative": 5.307
                 },
                 {
-                  "location": 0.179,
-                  "value": 0.506,
-                  "derivative": 0.917
+                  "location": 0.231,
+                  "value": 0.432,
+                  "derivative": -0.701
                 },
                 {
-                  "location": 0.302,
-                  "value": 0.414,
-                  "derivative": 1.581
+                  "location": 0.395,
+                  "value": 0.229,
+                  "derivative": 0.112
                 },
                 {
-                  "location": 0.414,
-                  "value": 0.148,
-                  "derivative": 0
-                },
-                {
-                  "location": 0.495,
-                  "value": 0.317,
+                  "location": 0.612,
+                  "value": 0.647,
                   "derivative": 0
                 }
               ]
@@ -61,28 +56,23 @@
                   "value": 0
                 },
                 {
-                  "location": 0.1,
-                  "derivative": 0,
-                  "value": 0.08
+                  "location": 0.082,
+                  "value": 0.125,
+                  "derivative": 5.307
                 },
                 {
-                  "location": 0.179,
-                  "value": 0.24,
-                  "derivative": 2.584
+                  "location": 0.231,
+                  "value": 0.23,
+                  "derivative": -0.701
                 },
                 {
-                  "location": 0.302,
-                  "value": 0.21,
-                  "derivative": 1.515
+                  "location": 0.395,
+                  "value": 0.10,
+                  "derivative": 0.112
                 },
                 {
-                  "location": 0.414,
-                  "value": 0.05,
-                  "derivative": 0
-                },
-                {
-                  "location": 0.495,
-                  "value": 0.12,
+                  "location": 0.612,
+                  "value": 0.15,
                   "derivative": 0
                 }
               ]
@@ -115,19 +105,19 @@
                   "value": 0
                 },
                 {
-                  "location": 0.145,
-                  "value": 0.38,
+                  "location": 0.2,
+                  "value": 0.25,
                   "derivative": 0.191
                 },
                 {
-                  "location": 0.316,
-                  "value": 0.34,
-                  "derivative": -0.627
+                  "location": 0.405,
+                  "value": 0.13,
+                  "derivative": 4.345
                 },
                 {
-                  "location": 0.418,
-                  "value": 0.42,
-                  "derivative": 0
+                  "location": 0.778,
+                  "value": 0.4,
+                  "derivative": 7.069
                 }
               ]
             }
@@ -144,19 +134,19 @@
                   "value": 0
                 },
                 {
-                  "location": 0.145,
-                  "value": 0.633,
+                  "location": 0.2,
+                  "value": 0.452,
                   "derivative": 0.191
                 },
                 {
-                  "location": 0.316,
-                  "value": 0.77,
-                  "derivative": -0.627
+                  "location": 0.405,
+                  "value": 0.337,
+                  "derivative": 4.345
                 },
                 {
-                  "location": 0.418,
-                  "value": 0.9,
-                  "derivative": 0
+                  "location": 0.778,
+                  "value": 0.809,
+                  "derivative": 7.069
                 }
               ]
             }
