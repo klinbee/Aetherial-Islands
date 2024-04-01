@@ -16,32 +16,22 @@
   "noise": {
     "min_y": -64,
     "height": 384,
-    "size_horizontal": 2,
+    "size_horizontal": 1,
     "size_vertical": 1
   },
   "noise_router": {
-    "barrier": 0,
-    "fluid_level_floodedness": 0,
-    "fluid_level_spread": 0,
-    "lava": 0,
-    "temperature": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:temperature",
-      "xz_scale": 0.25,
-      "y_scale": 0
-    },
-    "vegetation": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:vegetation",
-      "xz_scale": 0.25,
-      "y_scale": 0
-    },
+    "temperature": "skylands:temperature",
+    "vegetation": "skylands:vegetation",
     "continents": "skylands:continents/3d",
-    "erosion": "minecraft:overworld/erosion",
+    "erosion": "skylands:erosion",
     "depth": "skylands:depth",
     "ridges": "skylands:ridges/final",
     "initial_density_without_jaggedness": 1,
     "final_density": "skylands:terrain/final",
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
     "vein_toggle": 0,
     "vein_ridged": 0,
     "vein_gap": 0
