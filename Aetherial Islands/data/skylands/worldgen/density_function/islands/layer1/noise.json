@@ -8,7 +8,7 @@
       "argument2": {
         "type": "minecraft:shifted_noise",
         "noise": "skylands:islands",
-        "xz_scale": 0.8,
+        "xz_scale": 0.825,
         "y_scale": 0,
         "shift_x": 0,
         "shift_y": 0,
