@@ -1,2 +1,1 @@
-# QFI
- quidvio float island
+# Aetherial Islands
