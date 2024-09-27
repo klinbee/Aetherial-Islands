@@ -2,7 +2,7 @@
   "type": "minecraft:range_choice",
   "input": "skylands:continents/noise",
   "min_inclusive": -1000,
-  "max_exclusive": 0,
+  "max_exclusive": -0.775,
   "when_in_range": 62,
   "when_out_of_range": {
     "type": "add",
