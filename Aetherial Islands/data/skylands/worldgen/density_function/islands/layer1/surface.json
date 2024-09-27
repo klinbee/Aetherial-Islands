@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "skylands:continents/noise",
+  "min_inclusive": -1000,
+  "max_exclusive": 0,
+  "when_in_range": 62,
+  "when_out_of_range": {
+    "type": "add",
+    "argument1": -2,
+    "argument2": {
+      "type": "mul",
+      "argument1": 65,
+      "argument2": "skylands:islands/layer1/offset_top"
+    }
+  }
+}

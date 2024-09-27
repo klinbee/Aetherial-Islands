@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "skylands:continents/oceanic_terrain_limiter",
+    "min_inclusive": -1.05,
+    "max_exclusive": -0.195,
+    "when_in_range": {
+        "type": "minecraft:interpolated",
+        "argument": "skylands:islands/oceanic/final"
+    },
+    "when_out_of_range": "skylands:terrain/pre_caves"
+}
