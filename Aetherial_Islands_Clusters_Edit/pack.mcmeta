@@ -1,0 +1,21 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Aetherial Islands: Clusters Edit",
+        "color": "#e7db1e"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Klinbee",
+        "color": "#ffc76f"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [15, 999]
+  }
+}
