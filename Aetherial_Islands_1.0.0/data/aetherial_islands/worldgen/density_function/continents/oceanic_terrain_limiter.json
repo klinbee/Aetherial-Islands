@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "aetherial_islands:y",
+    "min_inclusive": -64,
+    "max_exclusive": 80,
+    "when_in_range": "aetherial_islands:continents/no_mushroom",
+    "when_out_of_range": "aetherial_islands:continents/base"
+  }
+}
