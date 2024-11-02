@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": -0.425,
+      "argument2": {
+        "type": "minecraft:shifted_noise",
+        "noise": "skylands:islands",
+        "xz_scale": 0.85,
+        "y_scale": 0,
+        "shift_x": 8000,
+        "shift_y": 8000,
+        "shift_z": 8000
+      }
+    }
+  }
+}

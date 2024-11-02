@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "skylands:continents/noise",
+    "min_inclusive": -0.565,
+    "max_exclusive": 10,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "skylands:ridges/levels",
+      "min_inclusive": 0,
+      "max_exclusive": 1,
+      "when_in_range": "skylands:ridges/no_rivers",
+      "when_out_of_range": "skylands:ridges/noise"
+    },
+    "when_out_of_range": "skylands:ridges/no_rivers"
+  }
+}

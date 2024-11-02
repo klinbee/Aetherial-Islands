@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": -1,
+    "to_y": 64,
+    "from_value": 0,
+    "to_value": -1
+  },
+  "argument2": "skylands:islands/layer1/offset_top"
+}
