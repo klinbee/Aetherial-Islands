@@ -1,0 +1,12 @@
+{
+  "type": "lithostitched:replace_effects",
+  "biomes": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:taiga"
+  ],
+  "effects": {
+    "grass_color": 8828803,
+    "foliage_color": 6857828
+  }
+}

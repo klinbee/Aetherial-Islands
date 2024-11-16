@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_effects",
+  "biomes": "minecraft:river",
+  "effects": {
+    "grass_color": 9353585,
+    "foliage_color": 7448397
+  }
+}

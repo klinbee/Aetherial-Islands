@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_climate",
+  "biomes": [
+    "minecraft:stony_shore",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:taiga"
+  ],
+  "climate": {
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "has_precipitation": true
+  }
+}

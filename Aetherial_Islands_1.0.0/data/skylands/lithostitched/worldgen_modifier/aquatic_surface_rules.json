@@ -1,8 +1,5 @@
 {
   "type": "lithostitched:add_surface_rule",
-  "predicate": {
-    "type": "lithostitched:true"
-  },
   "levels": ["minecraft:overworld"],
   "surface_rule": {
     "type": "minecraft:sequence",

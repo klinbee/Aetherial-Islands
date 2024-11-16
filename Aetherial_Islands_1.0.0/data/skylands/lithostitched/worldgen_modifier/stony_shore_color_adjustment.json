@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:replace_effects",
+  "biomes": "minecraft:stony_shore",
+  "effects": {
+    "grass_color": 9090697,
+    "foliage_color": 7185259
+  }
+}
