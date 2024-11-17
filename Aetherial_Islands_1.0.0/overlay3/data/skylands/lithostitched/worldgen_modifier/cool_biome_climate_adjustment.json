@@ -1,6 +1,6 @@
 {
   "type": "lithostitched:replace_climate",
-  "biomes": ["minecraft:river"],
+  "biomes": ["minecraft:river", "minecraft:cherry_grove"],
   "climate": {
     "temperature": 0.8,
     "downfall": 0.4,
