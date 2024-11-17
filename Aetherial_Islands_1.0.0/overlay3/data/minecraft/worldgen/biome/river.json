@@ -1,14 +1,12 @@
 {
-  "temperature": 0.8,
-  "downfall": 0.4,
+  "temperature": 0.5,
+  "downfall": 0.5,
   "has_precipitation": true,
   "effects": {
     "sky_color": 8103167,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 9353585,
-    "foliage_color": 7448397,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -116,7 +114,7 @@
     "minecraft:canyon"
   ],
   "features": [
-    [],
+    ["skylands:lava_remover"],
     ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
     ["minecraft:amethyst_geode"],
     ["minecraft:monster_room", "minecraft:monster_room_deep"],

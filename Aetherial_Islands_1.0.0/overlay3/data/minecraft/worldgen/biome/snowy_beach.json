@@ -1,11 +1,11 @@
 {
-  "temperature": 0.2,
+  "temperature": 0.05,
   "downfall": 0.3,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 8233727,
+    "sky_color": 8364543,
     "fog_color": 12638463,
-    "water_color": 4159204,
+    "water_color": 4020182,
     "water_fog_color": 329011,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -24,38 +24,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:llama",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -160,14 +129,12 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "minecraft:ore_emerald"
+      "minecraft:disk_gravel"
     ],
-    ["minecraft:ore_infested"],
+    [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_windswept_hills",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",

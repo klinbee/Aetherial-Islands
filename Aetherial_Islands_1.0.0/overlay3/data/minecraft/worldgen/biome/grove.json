@@ -1,9 +1,9 @@
 {
-  "temperature": 0.2,
-  "downfall": 0.3,
+  "temperature": -0.2,
+  "downfall": 0.8,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 8233727,
+    "sky_color": 8495359,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011,
@@ -12,6 +12,12 @@
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.grove",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
     }
   },
   "spawners": {
@@ -26,34 +32,22 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "minecraft:wolf",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
+        "type": "minecraft:rabbit",
         "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 2,
+        "maxCount": 3
       },
       {
-        "type": "minecraft:llama",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 6
+        "type": "minecraft:fox",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "misc": [],
@@ -164,14 +158,14 @@
       "minecraft:ore_emerald"
     ],
     ["minecraft:ore_infested"],
-    ["minecraft:spring_water", "minecraft:spring_lava"],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_frozen"
+    ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_windswept_hills",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "minecraft:trees_grove",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],

@@ -1,17 +1,23 @@
 {
-  "temperature": 0.2,
-  "downfall": 0.3,
+  "temperature": 0.5,
+  "downfall": 0.8,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 8233727,
+    "sky_color": 8103167,
     "fog_color": 12638463,
-    "water_color": 4159204,
+    "water_color": 937679,
     "water_fog_color": 329011,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.meadow",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
     }
   },
   "spawners": {
@@ -26,34 +32,22 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
       },
       {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:llama",
-        "weight": 5,
-        "minCount": 4,
+        "type": "minecraft:rabbit",
+        "weight": 2,
+        "minCount": 2,
         "maxCount": 6
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "misc": [],
@@ -167,13 +161,10 @@
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_windswept_hills",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_grass_plain",
+      "minecraft:flower_meadow",
+      "minecraft:trees_meadow"
     ],
     ["minecraft:freeze_top_layer"]
   ]

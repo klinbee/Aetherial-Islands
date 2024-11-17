@@ -30,19 +30,10 @@
     "foliage_color": 6857828
   },
   "features": [
-    [],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
-    [
-      "minecraft:amethyst_geode",
-      "minecraft:forest_rock"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["skylands:lava_remover"],
+    ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
+    ["minecraft:amethyst_geode", "minecraft:forest_rock"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
     [
@@ -77,10 +68,7 @@
       "minecraft:disk_gravel"
     ],
     [],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
+    ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
@@ -96,9 +84,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_berry_common"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "spawn_costs": {},
   "spawners": {

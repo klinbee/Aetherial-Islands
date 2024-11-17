@@ -1,17 +1,26 @@
 {
-  "temperature": 0.2,
-  "downfall": 0.3,
-  "has_precipitation": true,
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.04,
   "effects": {
-    "sky_color": 8233727,
+    "sky_color": 7254527,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011,
+    "grass_color": 9470285,
+    "foliage_color": 10387789,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.badlands",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
     }
   },
   "spawners": {
@@ -26,34 +35,16 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "minecraft:armadillo",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 2
       },
       {
-        "type": "minecraft:pig",
-        "weight": 10,
+        "type": "minecraft:wolf",
+        "weight": 2,
         "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:llama",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 6
+        "maxCount": 8
       }
     ],
     "misc": [],
@@ -158,22 +149,23 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
+      "minecraft:ore_gold_extra",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "minecraft:ore_emerald"
+      "minecraft:disk_gravel"
     ],
-    ["minecraft:ore_infested"],
+    [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_windswept_hills",
-      "minecraft:flower_default",
+      "minecraft:trees_badlands",
       "minecraft:patch_grass_badlands",
+      "minecraft:patch_dead_bush_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_sugar_cane_badlands",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_cactus_decorated"
     ],
     ["minecraft:freeze_top_layer"]
   ]
