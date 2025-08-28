@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "aetherial_islands:continents/noise",
+    "points": [
+      {
+        "location": -1.8,
+        "derivative": 0,
+        "value": 0.9875
+      },
+      {
+        "location": -1.1,
+        "derivative": 0,
+        "value": 0.75
+      },
+      {
+        "location": -1.0,
+        "derivative": 0,
+        "value": 0.65
+      },
+      {
+        "location": -0.95,
+        "derivative": 0,
+        "value": 0.525
+      },
+      {
+        "location": -0.9,
+        "derivative": 0,
+        "value": 0.4
+      },
+      {
+        "location": -0.85,
+        "derivative": 0,
+        "value": 0.35
+      },
+      {
+        "location": -0.825,
+        "derivative": 0,
+        "value": 0.25
+      },
+      {
+        "location": -0.79,
+        "derivative": 0,
+        "value": 0.15
+      },
+      {
+        "location": -0.775,
+        "derivative": 0,
+        "value": -0.1
+      }
+    ]
+  }
+}
