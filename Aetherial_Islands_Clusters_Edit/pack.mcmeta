@@ -12,10 +12,12 @@
       },
       {
         "text": "Klinbee",
-        "color": "#ffc76f"
+        "color": "#ffbbbb"
       }
     ],
     "pack_format": 15,
+    "min_format": 15,
+    "max_format": 999,
     "supported_formats": [15, 999]
   }
 }
