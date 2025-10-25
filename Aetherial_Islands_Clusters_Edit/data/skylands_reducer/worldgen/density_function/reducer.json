@@ -5,12 +5,7 @@
     "argument": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": {
-          "type": "minecraft:noise",
-          "noise": "skylands_reducer:reducer",
-          "xz_scale": 0.5,
-          "y_scale": 0
-        },
+        "coordinate": "skylands_reducer:noise",
         "points": [
           {
             "location": 0,

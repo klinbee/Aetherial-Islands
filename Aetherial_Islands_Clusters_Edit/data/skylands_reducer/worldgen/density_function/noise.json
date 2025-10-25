@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "skylands_reducer:reducer",
+  "xz_scale": 0.5,
+  "y_scale": 0
+}

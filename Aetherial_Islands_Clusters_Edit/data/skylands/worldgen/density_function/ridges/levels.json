@@ -1,15 +1,15 @@
 {
   "type": "minecraft:spline",
   "spline": {
-    "coordinate": "skylands_reducer:islands/reducer",
+    "coordinate": "skylands_reducer:reducer",
     "points": [
       {
-        "location": -0.2,
+        "location": 0,
         "derivative": 0,
         "value": 0
       },
       {
-        "location": 0.4,
+        "location": 0.2,
         "derivative": 0,
         "value": {
           "coordinate": "skylands:y",
