@@ -7,7 +7,7 @@
       "spline": {
         "coordinate": {
           "type": "minecraft:noise",
-          "noise": "skylands_over_the_sea:reducer",
+          "noise": "skylands_reducer:reducer",
           "xz_scale": 0.5,
           "y_scale": 0
         },

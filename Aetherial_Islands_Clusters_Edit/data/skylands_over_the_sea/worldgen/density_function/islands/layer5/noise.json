@@ -4,7 +4,7 @@
     "type": "minecraft:flat_cache",
     "argument": {
       "type": "minecraft:add",
-      "argument1": "skylands_over_the_sea:islands/reducer",
+      "argument1": "skylands_reducer:islands/reducer",
       "argument2": {
         "type": "minecraft:shifted_noise",
         "noise": "skylands_over_the_sea:islands",

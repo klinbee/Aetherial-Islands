@@ -1,7 +1,7 @@
 {
   "type": "minecraft:spline",
   "spline": {
-    "coordinate": "skylands_over_the_sea:islands/reducer",
+    "coordinate": "skylands_reducer:islands/reducer",
     "points": [
       {
         "location": -0.2,
@@ -15,180 +15,6 @@
           "coordinate": "skylands_over_the_sea:y",
           "points": [
             {
-              "location": -8,
-              "derivative": 0,
-              "value": 0
-            },
-            {
-              "location": -8,
-              "derivative": 0,
-              "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer1/noise",
-                "points": [
-                  {
-                    "location": 0,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 1
-                  }
-                ]
-              }
-            },
-            {
-              "location": 8,
-              "derivative": 0,
-              "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer1/noise",
-                "points": [
-                  {
-                    "location": 0,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 1
-                  }
-                ]
-              }
-            },
-            {
-              "location": 8,
-              "derivative": 0,
-              "value": 0
-            },
-            {
-              "location": 40,
-              "derivative": 0,
-              "value": 0
-            },
-            {
-              "location": 40,
-              "derivative": 0,
-              "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer2/noise",
-                "points": [
-                  {
-                    "location": 0,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 1
-                  }
-                ]
-              }
-            },
-            {
-              "location": 56,
-              "derivative": 0,
-              "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer2/noise",
-                "points": [
-                  {
-                    "location": 0,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 1
-                  }
-                ]
-              }
-            },
-            {
-              "location": 56,
-              "derivative": 0,
-              "value": 0
-            },
-            {
-              "location": 88,
-              "derivative": 0,
-              "value": 0
-            },
-            {
-              "location": 88,
-              "derivative": 0,
-              "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer3/noise",
-                "points": [
-                  {
-                    "location": 0,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 1
-                  }
-                ]
-              }
-            },
-            {
-              "location": 104,
-              "derivative": 0,
-              "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer3/noise",
-                "points": [
-                  {
-                    "location": 0,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 0
-                  },
-                  {
-                    "location": 0.125,
-                    "derivative": 0,
-                    "value": 1
-                  }
-                ]
-              }
-            },
-            {
-              "location": 104,
-              "derivative": 0,
-              "value": 0
-            },
-            {
               "location": 136,
               "derivative": 0,
               "value": 0
@@ -197,7 +23,7 @@
               "location": 136,
               "derivative": 0,
               "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer4/noise",
+                "coordinate": "skylands_over_the_sea:islands/layer1/noise",
                 "points": [
                   {
                     "location": 0,
@@ -221,7 +47,7 @@
               "location": 152,
               "derivative": 0,
               "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer4/noise",
+                "coordinate": "skylands_over_the_sea:islands/layer1/noise",
                 "points": [
                   {
                     "location": 0,
@@ -255,7 +81,7 @@
               "location": 184,
               "derivative": 0,
               "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer5/noise",
+                "coordinate": "skylands_over_the_sea:islands/layer2/noise",
                 "points": [
                   {
                     "location": 0,
@@ -279,7 +105,7 @@
               "location": 200,
               "derivative": 0,
               "value": {
-                "coordinate": "skylands_over_the_sea:islands/layer5/noise",
+                "coordinate": "skylands_over_the_sea:islands/layer2/noise",
                 "points": [
                   {
                     "location": 0,
@@ -301,6 +127,122 @@
             },
             {
               "location": 200,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 232,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 232,
+              "derivative": 0,
+              "value": {
+                "coordinate": "skylands_over_the_sea:islands/layer3/noise",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            {
+              "location": 248,
+              "derivative": 0,
+              "value": {
+                "coordinate": "skylands_over_the_sea:islands/layer3/noise",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            {
+              "location": 248,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 280,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 280,
+              "derivative": 0,
+              "value": {
+                "coordinate": "skylands_over_the_sea:islands/layer4/noise",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            {
+              "location": 296,
+              "derivative": 0,
+              "value": {
+                "coordinate": "skylands_over_the_sea:islands/layer4/noise",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.125,
+                    "derivative": 0,
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            {
+              "location": 296,
               "derivative": 0,
               "value": 0
             }
