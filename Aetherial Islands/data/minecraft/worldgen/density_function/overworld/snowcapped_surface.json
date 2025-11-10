@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "skylands:y",
+    "min_inclusive": -64,
+    "max_exclusive": 48,
+    "when_in_range": "skylands:islands/layer1/surface",
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "skylands:y",
+      "min_inclusive": 48,
+      "max_exclusive": 96,
+      "when_in_range": "skylands:islands/layer2/surface",
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "skylands:y",
+        "min_inclusive": 96,
+        "max_exclusive": 144,
+        "when_in_range": "skylands:islands/layer3/surface",
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "skylands:y",
+          "min_inclusive": 144,
+          "max_exclusive": 192,
+          "when_in_range": "skylands:islands/layer4/surface",
+          "when_out_of_range": "skylands:islands/layer5/surface"
+        }
+      }
+    }
+  }
+}
