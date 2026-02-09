@@ -23,22 +23,10 @@
   "overlays": {
     "entries": [
       {
-        "formats": [18, 999],
-        "min_format": 18,
-        "max_format": 999,
-        "directory": "overlay_1_20_2"
-      },
-      {
         "formats": [41, 999],
         "min_format": 41,
         "max_format": 999,
         "directory": "overlay_1_20_5"
-      },
-      {
-        "formats": [57, 999],
-        "min_format": 57,
-        "max_format": 999,
-        "directory": "overlay_1_21_2"
       },
       {
         "formats": [61, 999],
